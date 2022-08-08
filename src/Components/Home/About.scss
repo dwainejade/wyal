@@ -1,0 +1,37 @@
+.about-wrapper {
+  position: relative;
+  width: 100vw;
+  /* height: calc(80vh - 60px); */
+  min-height: 800px;
+  /* max-height: 1200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fcf5eb;
+}
+
+.about-con {
+  max-width: 450px;
+  margin: 40px auto;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.about-caption {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 1.4rem;
+  text-align: left;
+  padding: 1rem;
+  margin: 0;
+}
+.about-image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 440px;
+}

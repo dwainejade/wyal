@@ -1,0 +1,16 @@
+.Layout {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  cursor: default;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  &:visited {
+    color: inherit;
+  }
+}

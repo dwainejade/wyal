@@ -1,0 +1,15 @@
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.logo {
+  font-weight: 600;
+}
