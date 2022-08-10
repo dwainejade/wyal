@@ -48,11 +48,18 @@
   margin-bottom: 1.4rem;
 }
 
-.service-button-wrapper {
+.service-footer {
   width: 95%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 10px;
+
+  .price {
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: bold;
+  }
 
   .button {
     margin: 0;
@@ -73,8 +80,7 @@
   align-items: flex-start;
 
   li {
-    // list-style: none;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
   }
 }
