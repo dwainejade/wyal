@@ -14,7 +14,7 @@ let services = [
     imageSrc: icon_lactation,
   },
   {
-    title: "Child Birth Education",
+    title: "Childbirth Education",
     longTitle: "Continuous Lactation Support",
     caption: "Lorem ipsum dolor sit amet. Consectetur adipiscing elit.",
     description: "",
