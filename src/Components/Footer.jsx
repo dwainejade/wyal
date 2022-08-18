@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer-wrapper">
       <div className="links">
-        <a href="mailto: support@wyaperinatal.com">
+        <a href="mailto: support@whereyouareperinatal.com">
           <RiMailLine fontSize={40} />
         </a>
         <a href="https://www.instagram.com/whereyouareperinatal">
