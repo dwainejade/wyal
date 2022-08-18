@@ -78,3 +78,8 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+body {
+  max-width: 100vw;
+  overflow: hidden;
+}
