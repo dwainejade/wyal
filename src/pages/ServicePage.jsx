@@ -1,11 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ServicePage.scss";
 
-import { useNavigate } from "react-router-dom";
-
 function ServicePage() {
-  let navigate = useNavigate();
-
   return (
     <div className="service-wrapper">
       <div className="service-con">
@@ -27,11 +24,10 @@ function ServicePage() {
 
         <div className="service-footer">
           <p className="price">$275</p>
-          <button
-            className="button"
-            onClick={() => navigate("/book/lactation-support")}
-          >
-            Book Now
+          <button className="button">
+            <a href="https://schedulingwyaperinatal.as.me/schedule.php">
+              Book Now
+            </a>
           </button>
         </div>
       </div>
@@ -54,17 +50,20 @@ function ServicePage() {
         </div>
         <div className="service-footer">
           <p className="price">$100</p>
-          <button
-            className="button"
-            onClick={() => navigate("/book/prenatal-support")}
-          >
-            Book Now
+          <button className="button">
+            <a href="https://schedulingwyaperinatal.as.me/schedule.php">
+              Book Now
+            </a>
           </button>
         </div>
       </div>
       <div className="divider" />
       <div className="service-con">
         <h1 className="service-title">How To Human Milk Workshop</h1>
+        <p className="service-caption">
+          Our monthly group class aims to educate parents on the mechanisms of
+          lactation and the several ways to feed babies human milk.
+        </p>
         <div className="package-con">
           <p className="package-header">Includes:</p>
           <ul className="package-items">
@@ -74,11 +73,10 @@ function ServicePage() {
         </div>
         <div className="service-footer">
           <p className="price">$65</p>
-          <button
-            className="button"
-            onClick={() => navigate("/book/childbirth-education")}
-          >
-            Book Now
+          <button className="button">
+            <a href="https://schedulingwyaperinatal.as.me/schedule.php">
+              Book Now
+            </a>
           </button>
         </div>
       </div>
